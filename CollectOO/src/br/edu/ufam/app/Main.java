@@ -15,44 +15,44 @@ public class Main {
 		Pilha pi = new Pilha();
 		
 		System.out.println("\tLista");
-		li.listaVazia(); // VerificaÁ„o se a lista est· vazia
+		li.listaVazia(); // Verifica√ß√£o se a lista est√° vazia
 		
-		//InserÁ„o lista
+		//Inser√ß√£o lista
 		li.insereLis("Luiza"); 
 		li.insereLis("Luana");
 		li.insereLis("Nina");
 		li.insereLis("Eduarda");
 		li.insereLis("Paula");
 		li.insereLis("Karla");
-		li.listaVazia(); // VerificaÁ„o de a Lista ainda est· vazia
-		li.mostra(); // Mostra elementos da lista apÛs inserÁ„o
+		li.listaVazia(); // Verifica√ß√£o se a Lista ainda est√° vazia
+		li.mostra(); // Mostra elementos da lista ap√≥s inser√ß√£o
 		
 		li.removeLista("Nina"); // Remover elemento especifico da lista
-		li.mostra(); // Mostra lista apÛs remorÁ„o
+		li.mostra(); // Mostra lista ap√≥s remor√ß√£o
 		li.removeLista("Luana"); // Remover elemento especifico da lista
-		li.mostra(); // Mostra lista apÛs remorÁ„o
+		li.mostra(); // Mostra lista ap√≥s remor√ß√£o
 		
 		
 		System.out.println("------------------------------------------");
 		
 		System.out.println("\tFila");
-		fi.filaVazia(); // verificaÁ„o se a fila est· vazia
+		fi.filaVazia(); // Verifica√ß√£o se a fila est√° vazia
 		
-		// InserÁ„o na fila
+		// Inser√ß√£o na fila
 		fi.enfileirar("Joao");
 		fi.enfileirar("Pedro");
 		fi.enfileirar("Victor");
 		fi.enfileirar("Lucas");
 		fi.enfileirar("Felipe");
 		fi.enfileirar("Caio");
-		fi.filaVazia(); // verificaÁ„o se a fila ainda est· vazia
-		fi.mostra(); // mostra elementos da fila
+		fi.filaVazia(); // Verifica√ß√£o se a fila ainda est√° vazia
+		fi.mostra(); // Mostra elementos da fila
 		
 		// Primeiro e Ultimo da Fila
 		fi.primeiroFila();
 		fi.ultimoFila();
 		
-		//RemorÁ„o da Fila
+		//Remor√ß√£o da Fila
 		fi.removeFila();
 		fi.mostra();
 		fi.removeFila();
@@ -61,21 +61,21 @@ public class Main {
 		System.out.println("------------------------------------------");
 		
 		System.out.println("\tPilha");
-		pi.pilhaVazia(); // VerificaÁ„o de a Pilha est· vazia
+		pi.pilhaVazia(); // Verifica√ß√£o se a Pilha est√° vazia
 		
-		//InserÁ„o na Pilha
+		//Inser√ß√£o na Pilha
 		pi.inserePi("Henrique");
 		pi.inserePi("Maria");
 		pi.inserePi("Juliana");
 		pi.inserePi("Enzo");
 		pi.inserePi("Valentina");
 		pi.inserePi("Anderson");
-		pi.pilhaVazia(); //// VerificaÁ„o de a Pilha ainda est· vazia
+		pi.pilhaVazia(); //// Verifica√ß√£o se a Pilha ainda est√° vazia
 		pi.mostraPi(); //Mostra elementos da Pilha
 		
 		pi.remove(); // Remove ultimo elemento adicionado na Pilha
 		pi.mostraPi();
-		pi.desempilhaPilha(); // Mostra o topo da pilha atual apÛs a remorÁ„o
+		pi.desempilhaPilha(); // Mostra o topo da pilha atual ap√≥s a remor√ß√£o
 		pi.remove();
 		pi.mostraPi();
 		pi.desempilhaPilha();
